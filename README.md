@@ -48,3 +48,35 @@ FetalHealth/
 │
 ├── Fetal_health.ipynb   # Main notebook containing data analysis, preprocessing, modeling and evaluation
 ├── README.md            # Project documentation
+
+Technologies Used
+
+The project was developed using the following Python libraries:
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+How to Run the Project
+1. Clone the repository
+git clone https://github.com/anaparovic/FetalHealth.git
+cd FetalHealth
+2. Install the required dependencies
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+3. Download the dataset
+
+Download the dataset from Kaggle:
+
+https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification/data
+
+Place the CSV file in the appropriate directory and update the file path in the notebook if necessary.
+
+4. Run the notebook
+
+Open the notebook in Jupyter Notebook, JupyterLab, or Google Colab:
+
+jupyter notebook Fetal_health.ipynb
+
+Then run the cells sequentially.
